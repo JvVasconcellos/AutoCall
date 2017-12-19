@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/chamada_item"
+        android:title="Realizar Chamada"
+        android:icon="@drawable/chamada_icon"/>
+
+    <item android:id="@+id/nota_item"
+        android:title="Inserir Nota"
+        android:icon="@drawable/nota_icon"/>
+
+    <item android:id="@+id/addAluno_item"
+        android:title="Adicionar Alunos"
+        android:icon="@drawable/addaluno_icon"/>
+
+    <item android:id="@+id/analises_item"
+        android:title="Análises"
+        android:icon="@drawable/analise_icon"/>
+
+    <item android:id="@+id/planilha_item"
+        android:title="Gerar Planilha"
+        android:icon="@drawable/planilha_icon"/>
+
+    <item android:id="@+id/remove_item"
+        android:title="Remover Turma"
+        android:icon="@drawable/remove_icon"/>
+
+    <item android:id="@+id/cadastrar_item"
+        android:title="Cadastrar Carteirinha"
+        android:icon="@drawable/cadastrar_icon"/>
+
+    <item android:id="@+id/sair_item"
+        android:title="Sair" />
+
+</menu>

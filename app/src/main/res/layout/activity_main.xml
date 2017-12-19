@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pack.jv.autocall.MainActivity">
+
+    <Button
+        android:id="@+id/bt_AddTurma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="141dp"
+        android:text="Adicionar Turma" />
+
+    <Button
+        android:id="@+id/bt_Gerenciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bt_AddTurma"
+        android:layout_alignStart="@+id/bt_AddTurma"
+        android:layout_centerVertical="true"
+        android:text="Gerenciar Turmas" />
+
+    <Button
+        android:id="@+id/bt_Cadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bt_Gerenciar"
+        android:layout_alignStart="@+id/bt_Gerenciar"
+        android:layout_below="@+id/bt_Gerenciar"
+        android:layout_marginTop="36dp"
+        android:text="Cadastrar Aluno" />
+</RelativeLayout>
